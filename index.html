@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Meta -->
+  <title>Test Store</title>
+
+  <!-- SnipCart -->
+  <link rel="preconnect" href="https://app.snipcart.com">
+  <link rel="preconnect" href="https://cdn.snipcart.com">
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.17/default/snipcart.css" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/light-theme.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a id="#brand" class="navbar-brand mx-5 p-0"><h1>Test.</h1></a>
+      <button id="cart" class="snipcart-checkout btn btn-custom-black">Cart (<span class="snipcart-items-count"></span>)</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">
+
+    </span>
+
+  </button>
+      <div class="collapse navbar-collapse text-right justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop
+        </a>
+            <div class="dropdown-menu text-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#tshirts">T-Shirts</a>
+              <a class="dropdown-item" href="#hats">Hats</a>
+              <a class="dropdown-item" href="#stickers">Stickers</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid jumbotron">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="#tshirts" class="text-decoration-none">
+        <div id="main1" class="container img-nav d-flex ">
+          <h1 class="mytext m-auto">
+              T-Shirts.
+            </h1>
+        </div>
+      </a>
+      </div>
+      <div class="col-md-6">
+        <a href="#hats" class="text-decoration-none">
+        <div id="main2" class="container mb-4 mt-4 mt-md-0 img-nav d-flex">
+          <h1 class="mytext m-auto">
+              Hats.
+            </h1>
+        </div>
+      </a>
+        <a href="#stickers" class="text-decoration-none">
+        <div id="main3" class="container img-nav d-flex">
+          <h1 class="mytext m-auto">
+              Stickers.
+            </h1>
+        </div>
+      </a>
+      </div>
+
+    </div>
+  </div>
+
+  <h1 id="featured" class="mytext fluid heading">Featured Items.</h1>
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-6 col-md-3">
+        <div class="card">
+          <img src="img/feat-shirt1.jpg" class="card-img-top img-nav" alt="...">
+          <div class="card-body">
+            <p class="card-text">The sickest shirt.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card">
+          <img src="img/feat-hat1.jpg" class="card-img-top img-nav" alt="...">
+          <div class="card-body">
+            <p class="card-text">The cool vibes hat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card">
+          <img src="img/feat-shirt2.jpg" class="card-img-top img-nav" alt="...">
+          <div class="card-body">
+            <p class="card-text">The striped shirt.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card">
+          <img src="img/feat-hat2.jpg" class="card-img-top img-nav" alt="...">
+          <div class="card-body">
+            <p class="card-text">The everyday snapback.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1 id="shop" class="mytext fluid heading">Shop.</h1>
+  <div class="container">
+    <h3 id="tshirts" class="mytext subtitle heading">T-Shirts.</h3>
+    <div class="container">
+      <div class="row">
+        <div class="card product-card mx-4  mb-3">
+          <div class="row no-gutters d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-4 mx-auto text-center">
+              <img src="img/feat-shirt1.jpg" class="card-img" alt="..."></img>
+            </div>
+            <div class="col-12 col-md-6 mx-auto my-3">
+              <h5>The Sickest Shirt</h5>
+              <p>This is a shirt. It's sick. Probably the sickest</p>
+              <p>$34.99</p>
+            </div>
+            <div class="col-12 col-lg-2 mx-auto text-center">
+              <button class="snipcart-add-item btn btn-custom-black my-1"
+                  data-item-id="shirt-sickest"
+                  data-item-price="34.99"
+                  data-item-url="/shirts/sickest"
+                  data-item-description="The sickest shirt. Black."
+                  data-item-image="/img/feat-shirt1.jpg"
+                  data-item-name="The Sickest Shirt">
+                  Add to cart
+                    </button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+
+      <div class="row">
+        <div class="card product-card mx-4 mb-3">
+          <div class="row no-gutters d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-4 mx-auto text-center">
+              <img src="img/feat-shirt2.jpg" class="card-img" alt="..."></img>
+            </div>
+            <div class="col-12 col-md-6 mx-auto my-3">
+              <h5>The Striped Shirt</h5>
+              <p>This is a shirt. It's striped. Red and Black. That is all.</p>
+              <p>$34.99</p>
+            </div>
+            <div class="col-12 col-lg-2 mx-auto text-center">
+              <button class="snipcart-add-item btn btn-custom-black my-1"
+                  data-item-id="shirt-striped"
+                  data-item-price="34.99"
+                  data-item-url="/shirts/striped"
+                  data-item-description="The striped shirt. Black and Red."
+                  data-item-image="/img/feat-shirt2.jpg"
+                  data-item-name="The Striped Shirt">
+                  Add to cart
+                        </button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div>
+
+
+    <h3 id="hats" class="mytext subtitle heading">Hats.</h3>
+    <div class="container">
+      <div class="row">
+        <div class="card product-card mx-4  mb-3">
+          <div class="row no-gutters d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-4 mx-auto text-center">
+              <img src="img/feat-hat1.jpg" class="card-img" alt="..."></img>
+            </div>
+            <div class="col-12 col-md-6 mx-auto my-3">
+              <h5>The Everyday Hat</h5>
+              <p>This is a hat. It's pretty basic. You'll probably wear it all the time.</p>
+              <p>$25.00</p>
+            </div>
+            <div class="col-12 col-lg-2 mx-auto text-center">
+              <button class="snipcart-add-item btn btn-custom-black my-1"
+                  data-item-id="hat-cool-vibes"
+                  data-item-price="25.00"
+                  data-item-url="/hats/cool-vibes"
+                  data-item-description="The cool vibes hat. Some fu in the sun."
+                  data-item-image="/img/feat-hat1.jpg"
+                  data-item-name="The Cool Vibes Hat">
+                  Add to cart
+                    </button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+
+      <div class="row">
+        <div class="card product-card mx-4 mb-3">
+          <div class="row no-gutters d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-4 mx-auto text-center">
+              <img src="img/feat-hat2.jpg" class="card-img" alt="..."></img>
+            </div>
+            <div class="col-12 col-md-6 mx-auto my-3">
+              <h5>The Everyday Hat</h5>
+              <p>This is a hat. It's pretty basic. You'll probably wear it all the time.</p>
+              <p>$25.00</p>
+            </div>
+            <div class="col-12 col-lg-2 mx-auto text-center">
+              <button class="snipcart-add-item btn btn-custom-black my-1"
+                      data-item-id="hat-everyday"
+                      data-item-price="25.00"
+                      data-item-url="/hats/everyday"
+                      data-item-description="The everyday hat. Black with something else."
+                      data-item-image="/img/feat-hat2.jpg"
+                      data-item-name="The Everyday Hat">
+                      Add to cart
+                        </button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div>
+
+    <h3 id="stickers" class="mytext subtitle heading">Stickers.</h3>
+    <div class="container">
+      <div class="row">
+        <div class="card product-card mx-4  mb-3">
+          <div class="row no-gutters d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-4 mx-auto text-center">
+              <img src="img/sticker1.jpg" class="card-img" alt="..."></img>
+            </div>
+            <div class="col-12 col-md-6 mx-auto my-3">
+              <h5>The Hello! Sticker</h5>
+              <p>This is a sticker. It says "Hello!" so you don't have to. It sticks to stuff. May be tough to remove.</p>
+              <p>$2.00</p>
+            </div>
+            <div class="col-12 col-lg-2 mx-auto text-center">
+              <button class="snipcart-add-item btn btn-custom-black my-1"
+                        data-item-id="sticker-hello"
+                        data-item-price="5.00"
+                        data-item-url="/stickers/hello"
+                        data-item-description="The Hello sticker. It sticks."
+                        data-item-image="/img/sticker1.jpg"
+                        data-item-name="The Hello Sticker">
+                        Add to cart
+                      </button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+
+    </div>
+  </div>
+
+  <h1 id="contact" class="mytext fluid heading">Contact.</h1>
+  <div class="container mt-5">
+    <div class="col col-md-8 col-lg-6 mx-auto">
+      <form action="success.html">
+        <div class="form-group">
+          <label for="name" class="lbl-custom">Name.</label>
+          <input type="name" class="form-control" id="name" required>
+                  </div>
+          <div class="form-group">
+            <label for="email" class="lbl-custom">Email address.</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="message" class="lbl-custom">Message.</label>
+            <textarea type="text" class="form-control" id="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-custom-red">Submit.</button>
+      </form>
+
+    </div>
+  </div>
+
+
+  <footer class="page-footer pt-5">
+    <div class="container-fluid text-center">
+      <small class="text-muted">
+                <!-- insert footer contents here -->
+                Hamburger icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+              </small>
+    </div>
+    <div class="footer-copyright text-center py-3">
+      <span>© 2020 Copyright</span>
+
+      <a class="logo-link" href="https://colbyhemond.me/" target="_blank" rel="noopener">
+          colbyhemond.me</a>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- SnipCart -->
+  <div hidden id="snipcart" data-api-key="NDc1ODQyMGEtODlmMy00ZDkyLTg5Y2EtNDk2YzU1ODRhZjI3NjM3Mjk4MTc2NTkxODczNDcw"></div>
+  <script src="https://cdn.snipcart.com/themes/v3.0.17/default/snipcart.js"></script>
+</body>
+
+</html>

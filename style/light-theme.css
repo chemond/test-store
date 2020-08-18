@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+@font-face {
+  font-family: MontserratBold;
+  src: url("../fonts/Montserrat-ExtraBoldItalic.otf") format("opentype");
+}
+
+nav {
+  background-color: red;
+}
+
+nav a {
+  color: white;
+  font-family: 'MontserratBold', sans-serif;
+}
+
+nav a h1 {
+  color: white !important;
+}
+
+nav li:hover {
+  background-color: white;
+  color: #111;
+}
+
+nav li a:hover {
+  color: #111;
+}
+
+.navbar-toggler {
+  background-color: white;
+  /* box-shadow: 4px 4px 2px #111; */
+  border: none;
+}
+
+.navbar-toggler:hover {
+  /* opacity: .9; */
+  box-shadow: 1px 1px 7px #666 inset;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../burger.svg);
+}
+
+.jumbotron {
+  background-color: #FFF;
+}
+
+#main1 {
+  background-image: url("../img/tshirts.jpg");
+  background-size: cover;
+  height: 100%;
+  min-height: 250px;
+}
+
+#main2 {
+  background-image: url("../img/hat.jpg");
+  background-size: cover;
+  height: 250px;
+}
+
+#main3 {
+  background-image: url("../img/stickers.jpg");
+  background-size: cover;
+  height: 250px;
+}
+
+.heading {
+  margin-top: 5rem;
+  padding-left: 3rem !important;
+}
+
+.img-nav:hover {
+  opacity: .5;
+}
+
+.mytext {
+  color: white;
+  background-color: red;
+  font-family: 'MontserratBold', sans-serif;
+  display: grid;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.subtitle {
+  background-color: #111 !important;
+}
+
+.card {
+  border: none;
+  margin-top: 20px;
+}
+
+.product-card {
+  width: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.card-img {
+  height: 20rem;
+  max-height: 300px;
+  width: auto;
+}
+
+.lbl-custom {
+  background-color: #111;
+  color: white;
+  width: 100%;
+  font-family: 'MontserratBold', sans-serif;
+  padding-left: 2rem;
+}
+
+.btn-custom-red {
+  background-color: red;
+  color: white;
+  font-family: 'MontserratBold', sans-serif;
+}
+
+.btn-custom-black {
+  background-color: #111;
+  color: white;
+  font-family: 'MontserratBold', sans-serif;
+}
+
+.btn-custom-black:hover {
+  color: grey;
+}
+
+#cart {}
+
+/* Footer */
+.page-footer {
+  margin-top: 10rem;
+  background-color: #1f2327;
+}
+
+.footer-copyright {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.logo-link {
+  font-family: "Permanent Marker";
+  margin-left: 5px;
+  color: orange;
+}

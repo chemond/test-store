@@ -7,7 +7,7 @@ https://ch-test-store.netlify.app
 - HTML
 - CSS
 - Bootstrap
-- SnipCart for ecommerce functionality
+- [SnipCart](https://www.snipcart.com) for ecommerce functionality
 - Hosted on Netlify
 
 ## About
